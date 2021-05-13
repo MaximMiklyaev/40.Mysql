@@ -1,4 +1,4 @@
-# OTUS ДЗ MySQL (Master-Slave) (Centos 7)
+# MySQL(Centos 7)
 ----------------------------------------------------------------------- 
 
 ```
@@ -31,19 +31,19 @@
 
 1. После поднятия виртуальных машин, выполним операции на мастере:
 
-![Image 1](https://raw.githubusercontent.com/staybox/otus_dz26/master/screenshots/master.png)
+![Image 1](https://raw.githubusercontent.com/MaximMiklyaev/40.Mysql/master/screenshots/master.png)
 
-![Image 2](https://raw.githubusercontent.com/staybox/otus_dz26/master/screenshots/master2.png)
+![Image 2](https://raw.githubusercontent.com/MaximMiklyaev/40.Mysql/master/screenshots/master2.png)
 
 2. Посмотрим репликацию на slave:
 
-![Image 3](https://raw.githubusercontent.com/staybox/otus_dz26/master/screenshots/slave.png)
+![Image 3](https://raw.githubusercontent.com/MaximMiklyaev/40.Mysql/master/screenshots/slave.png)
 
-![Image 4](https://raw.githubusercontent.com/staybox/otus_dz26/master/screenshots/slave2.png)
+![Image 4](https://raw.githubusercontent.com/MaximMiklyaev/40.Mysql/master/screenshots/slave2.png)
 
 - Используем утилиту ```mysqlbinlog```:
 
-![Image 5](https://raw.githubusercontent.com/staybox/otus_dz26/master/screenshots/binlog.png)
+![Image 5](https://raw.githubusercontent.com/MaximMiklyaev/40.Mysql/master/screenshots/binlog.png)
 
 ### Как проверить:
 
